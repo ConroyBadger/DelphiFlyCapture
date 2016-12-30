@@ -85,8 +85,7 @@ begin
   Memo.Height:=ClientHeight-Memo.Top-Border;
 
   Camera[1].Start;
-//  Camera[1].StartCapture;
-
+  FrameRateEditChange(nil);
   Timer.Enabled:=True;
 
   Camera[1].ShowTriggerInfo;

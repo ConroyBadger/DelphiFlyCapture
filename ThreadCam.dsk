@@ -17,19 +17,22 @@ File_14=TSourceModule,'C:\Mexico\Airborne\MenuFrmU.pas',0,1,218,15,231,0,0,,
 
 [Modules]
 Module0=C:\Git\Projects\DelphiFlyCapture\Main.pas
-Module1=C:\Git\Projects\DelphiFlyCapture\FlyCapture2Defs_C.pas
-Module2=C:\Git\Projects\DelphiFlyCapture\FlyCapture2_C.pas
-Module3=C:\Git\Projects\DelphiFlyCapture\FlyCapUtils.pas
-Module4=C:\Git\Projects\DelphiFlyCapture\CameraU.pas
-Module5=C:\Git\Projects\DelphiFlyCapture\BmpUtils.pas
-Module6=C:\Git\Projects\DelphiFlyCapture\ThreadCam.dproj
+Module1=C:\Git\Projects\DelphiFlyCapture\ThreadCam.dproj
+Module2=C:\Git\Projects\DelphiFlyCapture\FlyCapture2Defs_C.pas
+Module3=C:\Git\Projects\DelphiFlyCapture\FlyCapture2_C.pas
+Module4=C:\Git\Projects\DelphiFlyCapture\FlyCapUtils.pas
+Module5=C:\Git\Projects\DelphiFlyCapture\CameraU.pas
+Module6=C:\Git\Projects\DelphiFlyCapture\BmpUtils.pas
 Count=7
 EditWindowCount=1
 
 [C:\Git\Projects\DelphiFlyCapture\Main.pas]
 ModuleType=TSourceModule
 FormState=1
-FormOnTop=1
+FormOnTop=0
+
+[C:\Git\Projects\DelphiFlyCapture\ThreadCam.dproj]
+ModuleType=TBaseProject
 
 [C:\Git\Projects\DelphiFlyCapture\FlyCapture2Defs_C.pas]
 ModuleType=TSourceModule
@@ -55,9 +58,6 @@ FormOnTop=0
 ModuleType=TSourceModule
 FormState=0
 FormOnTop=0
-
-[C:\Git\Projects\DelphiFlyCapture\ThreadCam.dproj]
-ModuleType=TBaseProject
 
 [EditWindow0]
 ViewCount=7
@@ -87,13 +87,13 @@ BorlandEditorCodeExplorer=BorlandEditorCodeExplorer@EditWindow0
 TopPanelSize=0
 LeftPanelSize=1896
 LeftPanelClients=PropertyInspector,DockSite3
-LeftPanelData=00000800010100000000981300000000000001680700000000000001000000005C0E000009000000446F636B53697465330100000000D52200001100000050726F7065727479496E73706563746F72FFFFFFFF
+LeftPanelData=00000800010100000000221000000000000001680700000000000001000000005C0E000009000000446F636B53697465330100000000AF1C00001100000050726F7065727479496E73706563746F72FFFFFFFF
 RightPanelSize=2000
 RightPanelClients=DockSite2,DockSite4
-RightPanelData=00000800010100000000981300000000000001D00700000000000001000000004412000009000000446F636B53697465320100000000D522000009000000446F636B5369746534FFFFFFFF
-BottomPanelSize=0
+RightPanelData=00000800010100000000221000000000000001D00700000000000001000000004412000009000000446F636B53697465320100000000AF1C000009000000446F636B5369746534FFFFFFFF
+BottomPanelSize=1519
 BottomPanelClients=DockSite1,MessageView
-BottomPanelData=0000080001020200000009000000446F636B53697465310F0000004D65737361676556696577466F726D1534000000000000022606000000000000FFFFFFFF
+BottomPanelData=0000080001020100000009000000446F636B5369746531724500000000000002EF050000000000000100000000724500000F0000004D65737361676556696577466F726DFFFFFFFF
 BottomMiddlePanelSize=0
 BottomMiddlePanelClients=DockSite0,GraphDrawingModel
 BottomMiddelPanelData=0000080001020200000009000000446F636B536974653010000000477261706844726177696E67566965779F1D00000000000002F206000000000000FFFFFFFF
@@ -112,13 +112,13 @@ EditViewName=C:\Git\Projects\DelphiFlyCapture\ThreadCam.dpr
 [View1]
 CustomEditViewType=TEditView
 Module=C:\Git\Projects\DelphiFlyCapture\Main.pas
-CursorX=46
-CursorY=120
-TopLine=111
+CursorX=1
+CursorY=89
+TopLine=52
 LeftCol=1
 Elisions=
 Bookmarks=
-EditViewName=Borland.FormDesignerView
+EditViewName=C:\Git\Projects\DelphiFlyCapture\Main.pas
 
 [View2]
 CustomEditViewType=TEditView
@@ -262,18 +262,18 @@ StayOnTop=0
 [MessageView]
 PercentageSizes=1
 Create=1
-Visible=0
+Visible=1
 Docked=1
 State=0
 Left=0
-Top=0
-Width=2771
-Height=1423
+Top=23
+Width=10000
+Height=1356
 MaxLeft=-1
 MaxTop=-1
-ClientWidth=2771
-ClientHeight=1423
-TBDockHeight=1423
+ClientWidth=10000
+ClientHeight=1356
+TBDockHeight=1356
 LRDockWidth=2771
 Dockable=1
 StayOnTop=0
@@ -287,11 +287,11 @@ State=0
 Left=0
 Top=0
 Width=2000
-Height=4183
+Height=2548
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=4183
+ClientHeight=2548
 TBDockHeight=7154
 LRDockWidth=2000
 Dockable=1
@@ -366,11 +366,11 @@ State=0
 Left=0
 Top=420
 Width=1896
-Height=5221
+Height=3587
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=1896
-ClientHeight=5221
+ClientHeight=3587
 TBDockHeight=7385
 LRDockWidth=1896
 Dockable=1
@@ -379,8 +379,8 @@ SplitPos=111
 
 [PropInspDesignerSelection]
 ArrangeBy=Name
-SelectedItem=Action,
-ExpandedItems=Anchors=0,BorderIcons=0,Constraints=0,Font=0,GlassFrame=0,HorzScrollBar=0,LiveBindings=0
+SelectedItem=Name,OnChange
+ExpandedItems=Font=0,LiveBindings=0,"LiveBindings Designer=0",Margins=0
 
 [DebugLogView]
 PercentageSizes=1
@@ -815,11 +815,11 @@ State=0
 Left=0
 Top=528
 Width=2000
-Height=4183
+Height=2548
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=2000
-ClientHeight=4183
+ClientHeight=2548
 TBDockHeight=7385
 LRDockWidth=2000
 Dockable=1

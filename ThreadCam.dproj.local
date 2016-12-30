@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/06/10 04:18:39.000.432,C:\FlyCapture2\Delphi\FlyCam\FlyCam.dproj=C:\FlyCapture2\Delphi\FlyCam\FlyTest.dproj</Transaction>
+    <Transaction>2016/06/14 14:41:30.000.820,C:\FlyCapture2\Delphi\TriggerCam\FlyCam.dproj=C:\FlyCapture2\Delphi\TriggerCam\TriggerCam.dproj</Transaction>
+    <Transaction>2016/06/14 17:05:46.000.031,=C:\FlyCapture2\Delphi\TriggerCam\BmpUtils.pas</Transaction>
+    <Transaction>2016/06/14 18:06:20.000.597,C:\FlyCapture2\Delphi\ThreadCam\TriggerCam.dproj=C:\FlyCapture2\Delphi\ThreadCam\ThreadCam.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

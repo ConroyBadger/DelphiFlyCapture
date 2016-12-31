@@ -1,5 +1,5 @@
 # DelphiFlyCapture
-Delphi header translation for Point Grey FlyCapture
+Delphi header translation for Point Grey FlyCapture SDK
 
 This isn't a complete header translation, I only did the parts I needed to get things up and running. It should be a good starting point for most projects though.
 

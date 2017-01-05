@@ -5,8 +5,8 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
-  Vcl.ExtCtrls, Vcl.StdCtrls, AprChkBx, NBFill, AprSpin, FlyCapture2_C,
-  FlyCapture2Defs_C, FlyCapUtils, Vcl.Buttons, Vcl.Samples.Spin;
+  Vcl.ExtCtrls, Vcl.StdCtrls, FlyCapture2_C, FlyCapture2Defs_C, FlyCapUtils,
+  Vcl.Buttons, Vcl.Samples.Spin;
 
 type
   TMainFrm = class(TForm)
@@ -63,9 +63,12 @@ begin
   end;
 
   if not AbleToInitFlyCap2 then begin
-    ShowMessage('Error initializing FlyCapture2');
-    Halt;
+//  ShowMessage('Error initializing FlyCapture2');
+//  Halt;
   end;
+
+  if FlyCapW<PaintBox.Width then FlyCapW:=PaintBox.Width;
+  if FlyCapH<PaintBox.Height then FlyCapH:=PaintBox.Height;
 
   Bmp:=TBitmap.Create;
   Bmp.PixelFormat:=pf24Bit;

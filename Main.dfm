@@ -3,7 +3,7 @@ object MainFrm: TMainFrm
   Top = 0
   BorderStyle = bsSingle
   Caption = 'Thread Cam'
-  ClientHeight = 421
+  ClientHeight = 278
   ClientWidth = 608
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -24,7 +24,7 @@ object MainFrm: TMainFrm
     Left = 299
     Top = 8
     Width = 297
-    Height = 273
+    Height = 257
     OnPaint = PaintBoxPaint
   end
   object Label6: TLabel
